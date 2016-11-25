@@ -13,6 +13,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CC4CD6321DE888B900EF1B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4CD62D1DE888B900EF1B39 /* Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CC4CD6181DE8888700EF1B39;
+			remoteInfo = Example;
+		};
 		CC6D1E801DE87E4900FE6C17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -23,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC4CD62D1DE888B900EF1B39 /* Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Example.xcodeproj; sourceTree = "<group>"; };
 		OBJ_12 /* LongPressSortTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressSortTableViewTests.swift; sourceTree = "<group>"; };
 		OBJ_14 /* LongPressSortTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LongPressSortTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_15 /* LongPressSortTableViewTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = LongPressSortTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,8 +60,17 @@
 		CC4CD60E1DE8836200EF1B39 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				CC4CD62D1DE888B900EF1B39 /* Example.xcodeproj */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		CC4CD62E1DE888B900EF1B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4CD6331DE888B900EF1B39 /* Example.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
@@ -164,6 +181,12 @@
 			mainGroup = OBJ_5;
 			productRefGroup = OBJ_13 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CC4CD62E1DE888B900EF1B39 /* Products */;
+					ProjectRef = CC4CD62D1DE888B900EF1B39 /* Example.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				OBJ_16 /* LongPressSortTableView */,
@@ -171,6 +194,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CC4CD6331DE888B900EF1B39 /* Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Example.app;
+			remoteRef = CC4CD6321DE888B900EF1B39 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		OBJ_20 /* Sources */ = {
