@@ -13,6 +13,7 @@
 		CC4CD6401DE888D900EF1B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4CD6391DE888D900EF1B39 /* Main.storyboard */; };
 		CC4CD6411DE888D900EF1B39 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC4CD63B1DE888D900EF1B39 /* Info.plist */; };
 		CC4CD6421DE888D900EF1B39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4CD63C1DE888D900EF1B39 /* ViewController.swift */; };
+		CC4CD6471DE88D1900EF1B39 /* LongPressSortTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4CD6461DE88D1900EF1B39 /* LongPressSortTableView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CC4CD63A1DE888D900EF1B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC4CD63B1DE888D900EF1B39 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC4CD63C1DE888D900EF1B39 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC4CD6461DE88D1900EF1B39 /* LongPressSortTableView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LongPressSortTableView.framework; path = "../../../../Library/Developer/Xcode/DerivedData/LongPressSortTableView-epwzmkrpubtybagtaniftxbhuedb/Build/Products/Debug-iphonesimulator/LongPressSortTableView.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4CD6471DE88D1900EF1B39 /* LongPressSortTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +44,7 @@
 			children = (
 				CC4CD6341DE888D900EF1B39 /* Example */,
 				CC4CD6191DE8888700EF1B39 /* Products */,
+				CC4CD6451DE88D1900EF1B39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +67,14 @@
 				CC4CD63C1DE888D900EF1B39 /* ViewController.swift */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		CC4CD6451DE88D1900EF1B39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4CD6461DE88D1900EF1B39 /* LongPressSortTableView.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
