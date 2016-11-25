@@ -1,12 +1,12 @@
 import UIKit
 
-protocol LongPressSortTableViewDelegate: class {
+public protocol LongPressSortTableViewDelegate: class {
     func didMoveRow(at initialIndexPath: IndexPath, to indexPath: IndexPath)
 }
 
-final class LongPressSortTableView: UITableView {
+public class LongPressSortTableView: UITableView {
     
-    weak var moveDelegate: LongPressSortTableViewDelegate?
+    public weak var moveDelegate: LongPressSortTableViewDelegate?
     
     private var longPressGesture: UILongPressGestureRecognizer?
     private var snapshot: UIImageView?
@@ -14,7 +14,7 @@ final class LongPressSortTableView: UITableView {
     private var scrollRate: CGFloat = 0
     private var scrollDisplayLink: CADisplayLink?
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         prepareLongPressGesture()
     }
